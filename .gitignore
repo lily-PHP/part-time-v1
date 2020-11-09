@@ -1,1 +1,16 @@
+<<<<<<< HEAD
+=======
+/node_modules
+/public/hot
+/public/storage
+/public/uploads
+/storage/*.key
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+storage/modelLogs/
+>>>>>>> a52f9d8846611ebec2370385757e7665584bcbda
 .idea/

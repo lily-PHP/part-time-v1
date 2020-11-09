@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+//获取验证码
+Route::get('/public/getCaptcha', 'UserCenterController@getCaptcha');
+Route::any('/public/checkCaptcha', 'UserCenterController@userRegister');
