@@ -9,7 +9,7 @@ use Illuminate\Http\Response;
 header('Access-Control-Allow-Origin:*'); // 允许所有域名跨域
 header('Access-Control-Allow-Methods:POST, GET, OPTIONS, DELETE, PUT');
 header('Access-Control-Allow-Headers:x-requested-with,content-type,Authtoken');
-header('Access-Control-Expose-Headers:HTTP_AUTHTOKEN,HTTP_BUTTON');
+header('Access-Control-Expose-Headers:Authtoken');
 class CrossBaseMiddleware
 {
     /**

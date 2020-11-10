@@ -1427,6 +1427,63 @@
         ]
     },
     {
+        "name": "lcobucci/jwt",
+        "version": "3.3.3",
+        "version_normalized": "3.3.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/lcobucci/jwt.git",
+            "reference": "c1123697f6a2ec29162b82f170dd4a491f524773"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/lcobucci/jwt/zipball/c1123697f6a2ec29162b82f170dd4a491f524773",
+            "reference": "c1123697f6a2ec29162b82f170dd4a491f524773",
+            "shasum": ""
+        },
+        "require": {
+            "ext-mbstring": "*",
+            "ext-openssl": "*",
+            "php": "^5.6 || ^7.0"
+        },
+        "require-dev": {
+            "mikey179/vfsstream": "~1.5",
+            "phpmd/phpmd": "~2.2",
+            "phpunit/php-invoker": "~1.1",
+            "phpunit/phpunit": "^5.7 || ^7.3",
+            "squizlabs/php_codesniffer": "~2.3"
+        },
+        "time": "2020-08-20T13:22:28+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.1-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Lcobucci\\JWT\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Luís Otávio Cobucci Oblonczyk",
+                "email": "lcobucci@gmail.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "A simple library to work with JSON Web Token and JSON Web Signature",
+        "keywords": [
+            "JWS",
+            "jwt"
+        ]
+    },
+    {
         "name": "league/commonmark",
         "version": "1.5.7",
         "version_normalized": "1.5.7.0",
@@ -2110,17 +2167,17 @@
     },
     {
         "name": "opis/closure",
-        "version": "3.6.0",
-        "version_normalized": "3.6.0.0",
+        "version": "3.6.1",
+        "version_normalized": "3.6.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/opis/closure.git",
-            "reference": "c547f8262a5fa9ff507bd06cc394067b83a75085"
+            "reference": "943b5d70cc5ae7483f6aff6ff43d7e34592ca0f5"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/opis/closure/zipball/c547f8262a5fa9ff507bd06cc394067b83a75085",
-            "reference": "c547f8262a5fa9ff507bd06cc394067b83a75085",
+            "url": "https://api.github.com/repos/opis/closure/zipball/943b5d70cc5ae7483f6aff6ff43d7e34592ca0f5",
+            "reference": "943b5d70cc5ae7483f6aff6ff43d7e34592ca0f5",
             "shasum": ""
         },
         "require": {
@@ -2130,7 +2187,7 @@
             "jeremeamia/superclosure": "^2.0",
             "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0 || ^8.0 || ^9.0"
         },
-        "time": "2020-10-11T21:42:15+00:00",
+        "time": "2020-11-07T02:01:34+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -6297,29 +6354,29 @@
     },
     {
         "name": "voku/portable-ascii",
-        "version": "1.5.3",
-        "version_normalized": "1.5.3.0",
+        "version": "1.5.4",
+        "version_normalized": "1.5.4.0",
         "source": {
             "type": "git",
             "url": "https://github.com/voku/portable-ascii.git",
-            "reference": "25bcbf01678930251fd572891447d9e318a6e2b8"
+            "reference": "87dc337d4200b32717dd3849fea846319e897658"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/voku/portable-ascii/zipball/25bcbf01678930251fd572891447d9e318a6e2b8",
-            "reference": "25bcbf01678930251fd572891447d9e318a6e2b8",
+            "url": "https://api.github.com/repos/voku/portable-ascii/zipball/87dc337d4200b32717dd3849fea846319e897658",
+            "reference": "87dc337d4200b32717dd3849fea846319e897658",
             "shasum": ""
         },
         "require": {
             "php": ">=7.0.0"
         },
         "require-dev": {
-            "phpunit/phpunit": "~6.0 || ~7.0"
+            "phpunit/phpunit": "~6.0 || ~7.0 || ~9.0"
         },
         "suggest": {
             "ext-intl": "Use Intl for transliterator_transliterate() support"
         },
-        "time": "2020-07-22T23:32:04+00:00",
+        "time": "2020-11-08T21:15:15+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {

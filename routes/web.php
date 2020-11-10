@@ -19,4 +19,12 @@ Route::get('/', function () {
 
 //获取验证码
 Route::get('/public/getCaptcha', 'UserCenterController@getCaptcha');
-Route::any('/public/checkCaptcha', 'UserCenterController@userRegister');
+//注册
+Route::any('/login/reg', 'UserCenterController@userRegister');
+//登录
+Route::any('/login/login', 'UserCenterController@userLogin');
+
+
+Route::group(['middleware' => 'verifyToken'], function(){
+    Route::any('/test', 'UserCenterController@test');
+});
